@@ -10,9 +10,6 @@
 	border-radius: 110%;
     width: 50%;
     margin: 0 auto;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 .intro-text {
@@ -23,19 +20,18 @@
 }
 
 .sub-text {
-	font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 36px;
-    font-weight: bolder;
-    color: rgb(59, 175, 198);
-    text-shadow: 4px 1px rgba(253, 253, 253, 0.25);
+    font-weight: bold;
+    color: rgb(243, 126, 174);
 }
 
 .btn-intro {
-	background: none;
+    background: none;
     border: 3px solid white;
-    padding: 10px 45px;
+    padding: 12px 65px;
     font-family: "Lato", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
     margin-left: 20px;
 }
@@ -51,7 +47,7 @@
 
 #mainNav .nav-link.active {
 	background: none;
-    color: rgb(208, 64, 121);
+    color: rgb(197, 103, 103);
 }
 
 @media (min-width: 320px) and (max-width: 720px) {
@@ -66,6 +62,12 @@
 	padding: 100px;
 	font-family: "Lato", sans-serif;
 	text-align: center;
+}
+
+/* Parallax Section */
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
 
 /* My skills section */
@@ -87,8 +89,8 @@
 }
 
 .skill-icon {
-	font-size: 22px;
-	text-shadow: 1px 3px rgba(255, 255, 255, 0.68);
+    font-size: 22px;
+    text-shadow: 1px 2px rgba(255, 255, 255, 0.41);
 }
 
 #my-skills {
