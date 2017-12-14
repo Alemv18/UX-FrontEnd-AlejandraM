@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
+button:focus, 
+button:active, 
+button:active {
+    outline: none;
+}
+
 /* Intro section */
 .self {
 	width: 32%;
@@ -23,7 +29,8 @@
     font-family: "Lato", sans-serif;
     font-size: 36px;
     font-weight: bold;
-    color: rgb(243, 126, 174);
+    text-shadow: 1px 1px #1b030391;
+    color: rgb(50, 176, 189);
 }
 
 .btn-intro {
@@ -73,9 +80,10 @@
 /* My skills section */
 
 #download {
-	font-family: "Lato", sans-serif;
-	padding-top: 100px;
-	color: black;
+    color: black;
+    font-family: "Lato", sans-serif;
+    padding-top: 100px;
+    background: white;
 }
 
 .skill-title {
