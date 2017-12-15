@@ -30,7 +30,7 @@ button:active {
     font-size: 36px;
     font-weight: bold;
     text-shadow: 1px 1px #1b030391;
-    color: rgb(50, 176, 189);
+    color: rgb(255, 159, 221);
 }
 
 .btn-intro {
@@ -82,7 +82,7 @@ button:active {
 #download {
     color: black;
     font-family: "Lato", sans-serif;
-    padding-top: 100px;
+    padding: 100px 0;
     background: white;
 }
 
@@ -93,11 +93,13 @@ button:active {
 }
 
 .skill-txt {
+    font-size: 14px;
 	text-align: center;
 }
 
 .skill-icon {
-    font-size: 22px;
+    color: #e24668;
+    font-size: 26px;
     text-shadow: 1px 2px rgba(255, 255, 255, 0.41);
 }
 
@@ -105,6 +107,12 @@ button:active {
 	padding-bottom: 20px;
 }
 
+.js-developer-txt {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #e24668;
+    margin-bottom: 10px;
+}
 
 
 /* My portfolio */
@@ -277,4 +285,150 @@ footer {
 	font-size: 26px;
     letter-spacing: 23px;
     text-shadow: 2px 1px rgba(119, 136, 153, 0.73);
+}
+
+/* Footer section */
+
+footer {
+    padding: 45px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, .3);
+    background: url(../img/footer.jpeg) no-repeat top center scroll !important;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0
+}
+
+footer ul {
+    margin-bottom: 0
+}
+
+footer ul li a {
+    font-size: 12px;
+    color: rgba(255, 255, 255, .3)
+}
+
+footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li a:hover {
+    text-decoration: none
+}
+
+.footer-arrow {
+    width: 28%;
+    margin-top: -84px;
+    float: right;
+    margin-right: -50px;
+}
+
+.logo-white {
+    float: left;
+    width: 51%;
+    margin-top: -4px;
+}
+
+ul.footer-txt {
+   list-style: none;
+   font-weight: 100 !important;
+   padding-left: 0px;
+   margin-top: 48px;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer-icons {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 14px;
+}
+
+.footer-txt-contact {
+    color: white;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.send-msg-title {
+    font-family: "Lato", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: -12px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.logo-footer {
+    width: 50% !important;
+    opacity: 0.6 !important;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover, 
+.fa-instagram:hover, 
+.fa-map-marker:hover, 
+.fa-phone:hover {
+  color: #fbd406;
+}
+
+.footer-icons-txt {
+    color: white;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.form-control {
+    background: transparent;
+}
+
+.form-control:focus, 
+.form-control:hover, 
+.footer-msg:focus, 
+.footer-msg:hover {
+    background: #fbd406;
+}
+
+.footer-cnt {
+    opacity: 0.8;
+}
+
+.contact-footer {
+    margin-top: 20px;
+}
+
+.footer-msg,
+.form-control {
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.send-btn {
+    margin-top: 15px;
+    font-size: 11px;
+    background: transparent;
+    color: white;
+    padding: 4px 36px;
+    border: 1px solid white;
+    border-radius: 61px;
+}
+
+.send-btn:hover {
+    background: #fbd406;
 }

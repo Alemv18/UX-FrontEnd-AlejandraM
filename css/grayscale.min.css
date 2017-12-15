@@ -57,7 +57,7 @@ a:focus, a:hover {
 	margin-bottom: 0;
 	text-transform: uppercase;
 	border-bottom: 1px solid rgba(255, 255, 255, .3);
-	background-color: #000
+	background-color: #000;
 }
 
 #mainNav .navbar-toggler {
@@ -107,12 +107,12 @@ a:focus, a:hover {
 	#mainNav.navbar-shrink {
 		padding-top: 10px;
 	    padding-bottom: 10px;
-	    background: #ffb09cbf;
+	    background: #e34667c7;
 	}
 
 	#mainNav .nav-link.active {
-		outline: 0;
-		background-color: rgb(197, 103, 103);
+		background: none;
+    	color: rgb(54, 3, 71);
 	}
 
 	#mainNav .nav-link.active:hover {
