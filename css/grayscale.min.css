@@ -107,7 +107,7 @@ a:focus, a:hover {
 	#mainNav.navbar-shrink {
 		padding-top: 10px;
 	    padding-bottom: 10px;
-	    background: #e34667c7;
+	    background: #f5b8bcd9;
 	}
 
 	#mainNav .nav-link.active {
@@ -128,7 +128,7 @@ a:focus, a:hover {
 	padding: 200px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/back-cover.jpeg) no-repeat top center scroll;
+	background: url(../img/desktop-background.jpeg) no-repeat top center scroll;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
