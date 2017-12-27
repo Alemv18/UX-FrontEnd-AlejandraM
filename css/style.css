@@ -361,8 +361,8 @@ footer ul li {
 .footer-icons {
     display: flex;
     color: white;
-    font-size: 26px;
-    text-shadow: -3px 1px 3px #a59597;
+    font-size: 35px;
+    text-shadow: -1px 1px 3px #a59597;
     float: left;
     flex-direction: column;
 }
@@ -469,10 +469,19 @@ footer ul li {
 }
 
 .professional-experience {
+    padding-top: 100px;
     background: white;
-    height: 230%;
+    height: 1750px;
     color: black;
     font-family: "Lato", sans-serif;
+}
+
+.education-exp {
+    height: 450px;
+}
+
+.volunteer-exp {
+    height: 1750px;
 }
 
 .experience-box {
@@ -495,6 +504,25 @@ footer ul li {
 .row-exp {
     margin-bottom: 30px;
     border-bottom: 1px solid #eacdcf;
+}
+
+.education-logo {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.tecmty {
+    margin-top: -10px;
+}
+
+.study-experience {
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 0px 40px;
+}
+
+.tech-degree {
+    margin-top: 11px;
 }
 
 .company-name {
