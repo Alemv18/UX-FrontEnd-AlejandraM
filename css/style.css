@@ -54,7 +54,7 @@ button:active {
 
 #mainNav .nav-link.active {
 	background: none;
-    color: rgb(197, 103, 103);
+    color: rgb(63, 22, 49);
 }
 
 @media (min-width: 320px) and (max-width: 720px) {
@@ -391,6 +391,14 @@ footer ul li {
     opacity: 0.6 !important;
 }
 
+.socialmedia-icons {
+    color: black;
+    list-style: none;
+    display: flex;
+    letter-spacing: 51px;
+    font-size: 32px;
+}
+
 .fa-facebook:hover,
 .fa-twitter:hover, 
 .fa-instagram:hover, 
@@ -471,7 +479,7 @@ footer ul li {
 .professional-experience {
     padding-top: 100px;
     background: white;
-    height: 1750px;
+    height: 1560px;
     color: black;
     font-family: "Lato", sans-serif;
 }
@@ -506,19 +514,38 @@ footer ul li {
     border-bottom: 1px solid #eacdcf;
 }
 
+.row-exp:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 .education-logo {
     width: 50%;
     margin-top: 30px;
+}
+
+.supercompu-logo {
+    width: 73%;
 }
 
 .tecmty {
     margin-top: -10px;
 }
 
+.poderuno-logo {
+    width: 34%;
+}
+
+.donadores-logo {
+    padding: 10px;
+}
+
 .study-experience {
     font-size: 15px;
     margin-top: 10px;
     padding: 0px 40px;
+    text-align: justify;
 }
 
 .tech-degree {
