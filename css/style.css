@@ -14,22 +14,23 @@ button:active {
 
 .myself {
     border-radius: 110%;
-    width: 50%;
+    width: 70%;
     margin: 10px 0;
 }
 
 .intro-text {
 	font-family: "Pacifico";
-	margin-bottom: 10px;
-    font-size: 90px !important;
-    text-shadow: 4px 2px rgba(35, 39, 43, 0.35);
+    margin-bottom: 10px;
+    font-size: 140px !important;
+    text-shadow: 5px 1px 1px rgba(35, 39, 43, 0.55);
 }
 
 .sub-text {
     font-family: "Lato", sans-serif;
     font-size: 36px;
     font-weight: bold;
-    color: #ff65868a;
+    color: #f43b638a;
+    margin-top: -30px;
 }
 
 .btn-intro {
@@ -71,6 +72,14 @@ button:active {
     font-weight: 800;
 }
 
+.hire-me-row {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+#mainNav a {
+    text-shadow: 1px 1px 0px #756e6e91;
+}
 /* About me section */
 #about {
 	padding: 100px;
@@ -305,7 +314,7 @@ footer {
     padding: 45px 0;
     text-align: center;
     color: rgba(255, 255, 255, .3);
-    background: url(../img/footer-cover.jpg) no-repeat top center scroll !important;
+    background: url(../img/footer-back.jpeg) no-repeat top center scroll !important;
     font-family: 'Lato', sans-serif;
 }
 
@@ -344,7 +353,7 @@ ul.footer-txt {
     list-style: none;
     font-weight: 100 !important;
     padding-left: 0px;
-    top: 25%;
+    top: 35%;
     position: absolute;
     left: 6%;
     align-items: flex-start;
@@ -489,7 +498,7 @@ footer ul li {
 }
 
 .volunteer-exp {
-    height: 1750px;
+    height: 540px;
 }
 
 .experience-box {
@@ -565,6 +574,14 @@ footer ul li {
 .general-description {
     font-size: 13px;
     line-height: 24px;
+}
+
+.waterloo-certificate {
+    width: 64%;
+}
+
+.french-certificate {
+    width: 70%;
 }
 
 .exp-date {
