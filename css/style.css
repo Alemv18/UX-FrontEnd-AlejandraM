@@ -9,7 +9,7 @@ button:active {
 
 /* Intro section */
 .self {
-	width: 32%;
+	width: 33%;
 }
 
 .myself {
@@ -80,6 +80,14 @@ button:active {
 #mainNav a {
     text-shadow: 1px 1px 0px #756e6e91;
 }
+
+.who-am-i-title {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 37px;
+    letter-spacing: 2px;
+}
+
 /* About me section */
 #about {
 	padding: 100px;
@@ -130,15 +138,25 @@ button:active {
     font-weight: bolder;
     color: #f796a7;
     margin-bottom: 10px;
+    background: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 
 /* My portfolio */
+#portfolio {
+    background: #fff;
+    height: 160%;
+    width: 85%;
+    margin: 0 auto;
+}
 .portfolio-box {
-  position: relative;
-  display: block;
-  max-width: 650px;
-  margin: 0 auto; }
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
   .portfolio-box .portfolio-box-caption {
     position: absolute;
     bottom: 0;
@@ -148,7 +166,7 @@ button:active {
     text-align: center;
     opacity: 0;
     color: white;
-    background: rgba(255, 130, 146, 0.77);
+    background: rgb(226, 182, 186);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
@@ -178,12 +196,40 @@ button:active {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
       font-size: 22px; } }
 
+.mobile-mockup {
+    max-width: 80% !important;
+    margin: 0 auto;
+}
 
+.portfolio-title {
+    color: black;
+}
 
+.canacintra-mq {
+    max-width: 105%;
+}
+
+.secret-sauce-mq,
+.meteor-mq {
+    max-width: 104%;
+}
+
+.supernova-mq {
+    max-width: 101%;
+}
+
+.donadores-mq {
+    max-width: 99%;
+}
+
+.coliseo-mq {
+    max-width: 102%
+}
 /* My experience */
 #my-experience {
 	font-family: "Lato", sans-serif;
 	padding: 70px;
+    background: #000;
 }
 
 .btn-experience {
@@ -299,7 +345,7 @@ button:active {
 
 #contact {
 	padding: 70px;
-
+    background: #000;
 }
 
 a, 
@@ -588,3 +634,84 @@ footer ul li {
     font-weight: bolder;
 }
 
+
+/* Individual project site */
+#project-content {
+    font-family: "Lato", sans-serif;
+    color: #000;
+}
+
+.secret-main-img {
+    max-width: 100%;
+}
+
+.fp-logo-img {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.fa-info-circle {
+    color: #000;
+    display: inline-block;
+    font-size: 32px;
+}
+
+.fp-txt-title {
+    color: #000;
+    display: inline;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.fp-row {
+    margin-top: 60px;
+}
+
+.fp-txt-cont {
+    padding: 0px 32px;
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.official-site-btn {
+    background: none;
+    padding: 9px 60px;
+    position: relative;
+    border-radius: 11px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.official-site-btn:hover, 
+.official-site-btn:focus, 
+.official-site-btn:active {
+    background: #eacdd0c9;
+}
+
+.fa-globe{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 26px;
+    z-index: 99;
+}
+
+.fa-heart-o,
+.fa-info-circle, 
+.fa-handshake-o, 
+.fa-desktop, 
+.fa-map-marker {
+    font-size: 24px;
+    margin-right: 9px;
+}
+
+.list-tech {
+    padding: 10px 76px;
+}
+
+.side-text{
+    padding-left: 10px;
+    display: inline-flex;
+}

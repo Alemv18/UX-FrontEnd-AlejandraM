@@ -4,7 +4,7 @@ body {
 	width: 100%;
 	height: 100%;
 	color: #fff;
-	background-color: #000
+	background-color: #fff;
 }
 
 html {
@@ -102,7 +102,7 @@ a:focus, a:hover {
 	#mainNav.navbar-shrink {
 		padding-top: 10px;
 	    padding-bottom: 10px;
-	    background: #f5b8bcd9;
+	    background: #eacdd0c9;
 	}
 
 	#mainNav .nav-link.active {
