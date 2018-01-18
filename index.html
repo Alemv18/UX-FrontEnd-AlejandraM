@@ -10,7 +10,6 @@
     <link rel="icon" href="./img/blackdiamond.png">
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -283,25 +282,27 @@
         </div>
       </div>
     </section>
-    <!-- Quote of the day section -->
-    <section id="quote" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto quote-day">
-            <h2>Quote of the day</h2>
-            <label for="" class="quote-txt">"Decide that you want it more than you are afraid of it"</label>
-          </div>
-        </div>
-      </div>
+    <!-- Blog section -->
+    <section id="blog">
+      
     </section>
     <!-- Contact section -->
     <section id="contact" class="content-section text-center">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
+          <div class="col-lg-8 col-md-8 col-sm-8">
             <h2><i class="fa fa-diamond" aria-hidden="true"></i></h2>
             <h2 class="contact">Let's talk! </h2>
-            <a href="https://alemv18.typeform.com/to/saQaR2"><button class="btn-experience">Click here</button></a>
+            <form action="#" method="get">
+                  <input type="text" name="contact-name" class="contact-name talk-form-input" placeholder="Full Name"><br>
+                  <input type="email" name="contact-email" class="contact-email talk-form-input" placeholder="Email"><br>
+                  <textarea name="contact-message" id="contact-message" cols="30" rows="10"
+                  placeholder="Message" class="talk-form-input"></textarea><br>
+                  <button class="send-footer-btn btn-experience">Send</button>
+            </form>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <label for="" class="quote-txt">"Decide that you want it more than you are afraid of it"</label>
           </div>
         </div>
       </div>
@@ -311,6 +312,7 @@
       <div class="container footer-cnt">
         <div class="row">
           <div class="col-md-4 col-sm-4">
+
           </div>
           <div class="col-md-4 col-sm-4 text-center contact-footer">
             <!--  <div class="row">

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Lobster');
 
 button:focus, 
 button:active, 
@@ -339,6 +340,31 @@ button:active {
 .quote-day {
     border: 3px solid black;
     padding: 35px 50px;
+}
+
+.quote-txt {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+    margin-top: 130px;
+}
+
+.talk-form-input {
+    width: 57%;
+    margin-bottom: 14px;
+    padding: 7px 15px;
+    background: none;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+#contact-message {
+    border: 2px solid #fff;
+}
+
+/* Blog Section */
+#blog {
+    height: 700px;
+    background: #fff;
 }
 
 /* Contact */
