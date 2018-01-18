@@ -10,7 +10,7 @@ button:active {
 
 /* Intro section */
 .self {
-	width: 33%;
+	width: 24% !important;
 }
 
 .myself {
