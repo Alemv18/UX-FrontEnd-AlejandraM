@@ -361,6 +361,19 @@ button:active {
     border: 2px solid #fff;
 }
 
+.influencer-txt {
+    color: #000;
+    margin-top: -20px;
+}
+
+.num-txt {
+    font-size: 80px;
+    letter-spacing: 10px;
+    margin-top: 60px;
+    font-weight: bolder;
+    font-family: 'Lato';
+}
+
 /* Blog Section */
 #blog {
     height: 700px;
