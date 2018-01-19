@@ -741,7 +741,9 @@ footer ul li {
 .fa-info-circle, 
 .fa-handshake-o, 
 .fa-desktop, 
-.fa-map-marker {
+.fa-map-marker, 
+.fa-file-image-o, 
+.fa-users {
     font-size: 24px;
     margin-right: 9px;
 }
@@ -754,3 +756,25 @@ footer ul li {
     padding-left: 10px;
     display: inline-flex;
 }
+
+.portfolio-img-row {
+    margin-top: 20px;
+}
+
+.fp-img {
+    width: 100%;
+}
+
+#carouselExampleIndicators {
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.carousel-control-prev:hover {
+    background:#ffe0e6;
+}
+
+.carousel-control-next:hover {
+    background: #ffe0e6;
+}
+
