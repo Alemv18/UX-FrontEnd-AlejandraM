@@ -8,6 +8,11 @@ button:active {
     outline: none;
 }
 
+textarea:focus,
+input:focus{
+    outline: none;
+}
+
 /* Intro section */
 .self {
 	width: 24% !important;
@@ -366,6 +371,10 @@ button:active {
     margin-top: -20px;
 }
 
+.girlcodemx {
+    width: 95%;
+}
+
 .num-txt {
     font-size: 80px;
     letter-spacing: 10px;
@@ -498,7 +507,8 @@ footer ul li {
 .fa-instagram:hover, 
 .fa-map-marker:hover, 
 .fa-phone:hover, 
-.fa-google-plus:hover {
+.fa-google-plus:hover,  
+.fa-github:hover {
   color: #333230;
 }
 
