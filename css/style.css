@@ -15,7 +15,12 @@ input:focus{
 
 /* Intro section */
 .self {
-	width: 24% !important;
+	width: 36% !important;
+}
+
+.container-fluid {
+    padding-right:  8%;
+    padding-left: 8%;
 }
 
 .myself {
@@ -31,16 +36,23 @@ input:focus{
     text-shadow: 5px 1px 1px rgba(35, 39, 43, 0.55);
 }
 
-.sub-text {
+.sub-txt {
     font-family: "Lato", sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    color: #f43b638a;
-    margin-top: -30px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f796a7;
+    margin-bottom: 10px;
+    background: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 9px 0px;
+    margin: 0 250px;
+    margin-top: 130px;
+    margin-bottom: 100px;
 }
 
 .btn-intro {
-    background: #060200c7;
+    background: #df8090e3;
     border: 2px solid white;
     padding: 12px 65px;
     font-family: "Lato", sans-serif;
@@ -55,7 +67,7 @@ input:focus{
 }
 
 .btn-intro:hover {
-	background: #060200c7;
+	background: #df8090e3;
     border-radius: 100px;
 }
 
@@ -72,19 +84,19 @@ input:focus{
 }
 
 .experience-intro {
-    color: #363533b8;
+    color: #000000b8;
     font-family: "Lato", sans-serif;
     font-size: 18px;
     font-weight: 800;
 }
 
+.experience-btn {
+    margin-top: 750px;
+}
+
 .hire-me-row {
     margin-top: 30px;
     margin-left: 60px;
-}
-
-#mainNav a {
-    text-shadow: 1px 1px 0px #756e6e91;
 }
 
 .who-am-i-title {
@@ -93,6 +105,20 @@ input:focus{
     font-size: 37px;
     letter-spacing: 2px;
 }
+
+.fa-arrow-left {
+    color: #fff;    
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.fa-arrow-left:hover, 
+.fa-arrow-left:focus, 
+.fa-arrow-left:active
+ {
+    color: #df8090e3;
+}
+
 
 /* About me section */
 #about {
@@ -153,7 +179,7 @@ input:focus{
 /* My portfolio */
 #portfolio {
     background: #fff;
-    height: 160%;
+    height: 130%;
     width: 85%;
     margin: 0 auto;
 }
@@ -172,7 +198,7 @@ input:focus{
     text-align: center;
     opacity: 0;
     color: white;
-    background: rgb(226, 182, 186);
+    background: #e38e9c;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
@@ -258,7 +284,6 @@ input:focus{
     margin-top: 2000px;
     background: black;
     height: 100px;
-    background: url("");
     font-family: "Lato", sans-serif;
 }
 
@@ -372,7 +397,17 @@ input:focus{
 }
 
 .girlcodemx {
-    width: 95%;
+    width: 120%;
+}
+
+.gcmx-logo {
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.amafeed-img, 
+.amafeed-2-img {
+    width: 110%;
 }
 
 .num-txt {
@@ -383,10 +418,38 @@ input:focus{
     font-family: 'Lato';
 }
 
+.amafeed-2-img {
+    margin-top: 50px;
+}
+
+.influencer-intro-txt {
+    color: #000;
+}
+
+.girlcode-link {
+    color: #f43b638a;
+}
+
+.girlcode-link:hover, 
+.girlcode-link:focus, 
+.girlcode-link:active {
+    color: #ff005e;
+}
+
+.influencer-img {
+    margin-top: 80px;
+}
+
 /* Blog Section */
 #blog {
-    height: 700px;
+    height: 1400px;
     background: #fff;
+    font-family: "Lato", sans-serif !important;
+}
+
+.logo-code {
+    margin-top: 300px;
+    margin-left: 100px;
 }
 
 /* Contact */
@@ -494,12 +557,18 @@ footer ul li {
     opacity: 0.6 !important;
 }
 
-.socialmedia-icons {
+.socialmedia-icons,
+.socialmedia-icons a {
     color: black;
     list-style: none;
     display: flex;
     letter-spacing: 51px;
     font-size: 32px;
+}
+
+
+.git-social {
+    margin-top: 10px;
 }
 
 .fa-facebook:hover,
@@ -508,8 +577,8 @@ footer ul li {
 .fa-map-marker:hover, 
 .fa-phone:hover, 
 .fa-google-plus:hover,  
-.fa-github:hover {
-  color: #333230;
+.fa-github:hover{
+  color: #e38e9c;
 }
 
 .footer-icons-txt {
@@ -586,6 +655,11 @@ footer ul li {
     height: 1560px;
     color: black;
     font-family: "Lato", sans-serif;
+}
+
+#experience-masthead {
+    background: url(../img/ale-code-mx.jpg) no-repeat top center scroll !important;
+    background-size: 100% !important;
 }
 
 .education-exp {
