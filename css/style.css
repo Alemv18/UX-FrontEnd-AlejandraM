@@ -11,6 +11,7 @@ button:active {
 textarea:focus,
 input:focus{
     outline: none;
+    background: #df8090e3;
 }
 
 /* Intro section */
@@ -29,6 +30,11 @@ input:focus{
     margin: 10px 0;
 }
 
+.main-img {
+    width: 30%;
+    margin-top: 363px;
+}
+
 .intro-text {
 	font-family: "Pacifico";
     margin-bottom: 10px;
@@ -41,14 +47,12 @@ input:focus{
     font-size: 24px;
     font-weight: bolder;
     color: #f796a7;
-    margin-bottom: 10px;
     background: black;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 9px 0px;
     margin: 0 250px;
-    margin-top: 130px;
-    margin-bottom: 100px;
+    margin-top: 19px;
 }
 
 .btn-intro {
@@ -122,7 +126,7 @@ input:focus{
 
 /* About me section */
 #about {
-	padding: 100px;
+    padding: 100px 390px;
 	font-family: "Lato", sans-serif;
 	text-align: center;
     background: white;
@@ -175,11 +179,15 @@ input:focus{
     letter-spacing: 2px;
 }
 
+.js-txt {
+    padding: 10px;
+    margin: 20px 130px;
+}
 
 /* My portfolio */
 #portfolio {
     background: #fff;
-    height: 130%;
+    height: 140%;
     width: 85%;
     margin: 0 auto;
 }
@@ -198,7 +206,7 @@ input:focus{
     text-align: center;
     opacity: 0;
     color: white;
-    background: #e38e9c;
+    background: #e38e9cc7;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
@@ -211,7 +219,7 @@ input:focus{
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         padding: 0 15px;
-        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+        font-family: "Lato", sans-serif;     }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 14px;
         font-weight: 600;
@@ -226,7 +234,7 @@ input:focus{
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
       font-size: 16px; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-      font-size: 22px; } }
+      font-size: 18px; } }
 
 .mobile-mockup {
     max-width: 80% !important;
@@ -274,8 +282,13 @@ input:focus{
 }
 
 .btn-experience:hover {
-	background: rgb(241, 181, 191);
+	background: #df8090e3;
     border-radius: 100px;
+}
+
+.experience-arrow {
+    color: #000;
+    margin-left: 10px;
 }
 
 /* Experience */
@@ -424,6 +437,9 @@ input:focus{
 
 .influencer-intro-txt {
     color: #000;
+    padding: 0px 100px;
+    font-size: 17px;
+    text-align: justify;
 }
 
 .girlcode-link {
@@ -438,6 +454,14 @@ input:focus{
 
 .influencer-img {
     margin-top: 80px;
+}
+
+.git-repo-icon {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 26px;
+    z-index: 99;
 }
 
 /* Blog Section */
@@ -471,7 +495,7 @@ footer {
     padding: 45px 0;
     text-align: center;
     color: rgba(255, 255, 255, .3);
-    background: url(../img/footer-back.jpeg) no-repeat top center scroll !important;
+    background: url(../img/new-footer.jpg) no-repeat bottom center scroll !important;
     font-family: 'Lato', sans-serif;
 }
 
@@ -559,7 +583,7 @@ footer ul li {
 
 .socialmedia-icons,
 .socialmedia-icons a {
-    color: black;
+    color: #fff;
     list-style: none;
     display: flex;
     letter-spacing: 51px;
@@ -658,7 +682,7 @@ footer ul li {
 }
 
 #experience-masthead {
-    background: url(../img/ale-code-mx.jpg) no-repeat top center scroll !important;
+    background: url(../img/new-main-experience.jpg) no-repeat top center scroll !important;
     background-size: 100% !important;
 }
 
@@ -769,7 +793,7 @@ footer ul li {
 }
 
 .fp-logo-img {
-    width: 90%;
+    width: 38%;
     margin-top: 20px;
 }
 
@@ -810,7 +834,7 @@ footer ul li {
 .official-site-btn:hover, 
 .official-site-btn:focus, 
 .official-site-btn:active {
-    background: #eacdd0c9;
+    background: #df8090e3;
 }
 
 .fa-globe{
