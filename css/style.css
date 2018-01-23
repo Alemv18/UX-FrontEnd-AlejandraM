@@ -26,8 +26,8 @@ input:focus{
 
 .myself {
     border-radius: 110%;
-    width: 70%;
-    margin: 10px 0;
+    width: 36%;
+    margin: -10px 0;
 }
 
 .main-img {
@@ -36,23 +36,17 @@ input:focus{
 }
 
 .intro-text {
-	font-family: "Pacifico";
+    font-family: "Pacifico";
     margin-bottom: 10px;
-    font-size: 140px !important;
-    text-shadow: 5px 1px 1px rgba(35, 39, 43, 0.55);
+    font-size: 112px !important;
+    text-shadow: 4px 2px rgba(35, 39, 43, 0.35);
 }
 
-.sub-txt {
+.sub-text {
     font-family: "Lato", sans-serif;
-    font-size: 24px;
-    font-weight: bolder;
-    color: #f796a7;
-    background: black;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 9px 0px;
-    margin: 0 250px;
-    margin-top: 19px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff65868a;
 }
 
 .btn-intro {
@@ -90,7 +84,7 @@ input:focus{
 .experience-intro {
     color: #000000b8;
     font-family: "Lato", sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 800;
 }
 
@@ -495,7 +489,7 @@ footer {
     padding: 45px 0;
     text-align: center;
     color: rgba(255, 255, 255, .3);
-    background: url(../img/new-footer.jpg) no-repeat bottom center scroll !important;
+    background: url(../img/footer-back.jpeg) no-repeat bottom center scroll !important;
     font-family: 'Lato', sans-serif;
 }
 
@@ -510,7 +504,7 @@ footer ul {
 
 footer ul li a {
     font-size: 12px;
-    color: rgba(255, 255, 255, .3)
+    color: #000 !important;
 }
 
 footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li a:hover {
@@ -682,7 +676,7 @@ footer ul li {
 }
 
 #experience-masthead {
-    background: url(../img/new-main-experience.jpg) no-repeat top center scroll !important;
+    background: url(../img/desktop-background.jpeg) no-repeat top center scroll !important;
     background-size: 100% !important;
 }
 
@@ -786,6 +780,7 @@ footer ul li {
 #project-content {
     font-family: "Lato", sans-serif;
     color: #000;
+    height: 2140px;
 }
 
 .secret-main-img {
@@ -885,4 +880,9 @@ footer ul li {
 .carousel-control-next:hover {
     background: #ffe0e6;
 }
+
+
+/* Add media queries */
+
+
 
