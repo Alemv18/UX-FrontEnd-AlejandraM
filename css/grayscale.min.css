@@ -102,7 +102,7 @@ a:focus, a:hover {
 	#mainNav.navbar-shrink {
 		padding-top: 10px;
 	    padding-bottom: 10px;
-	    background: #ecd0cf;
+	    background: #ecd0cfd1;
 	}
 
 	#mainNav .nav-link.active {
