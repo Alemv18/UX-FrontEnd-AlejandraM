@@ -368,8 +368,8 @@ xclip
       font-size: 18px; } }
 
 .mobile-mockup {
-    max-width: 80% !important;
-    margin: 0 auto;
+    max-width: 50% !important;
+    margin-left: 152px !important;
 }
 
 .portfolio-title {
@@ -1303,6 +1303,11 @@ footer ul li {
         text-transform: capitalize;
         letter-spacing: 2px;
         font-family: "Homemade Apple", sans-serif;
+    }
+
+    .mobile-mockup {
+        max-width: 87% !important;
+        margin: 0 auto;
     }
 
 }
