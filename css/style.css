@@ -627,6 +627,7 @@ footer {
     color: rgba(255, 255, 255, .3);
     background: url(../img/footer-back.jpeg) no-repeat bottom center scroll !important;
     font-family: 'Lato', sans-serif;
+    background-size: 120% !important;
 }
 
 footer p {
@@ -983,6 +984,11 @@ footer ul li {
     z-index: 99;
 }
 
+#globe {
+    margin: 0;
+    position: relative;
+}
+
 .fa-heart-o,
 .fa-info-circle, 
 .fa-handshake-o, 
@@ -1024,6 +1030,10 @@ footer ul li {
     background: #ffe0e6;
 }
 
+#carouselExampleIndicators {
+    width: 70%;
+    margin: 0 auto;
+}
 
 /* Add media queries */
 
@@ -1032,13 +1042,32 @@ footer ul li {
   and (min-device-width: 375px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+    .self {
+        width: 40% !important;
+    }
 
     #mainNav {
-        display: none;
+        background-color: #ecd0cfd6;
+        border: 0;
+    }
+
+    #about {
+        background-color: #000;
+        color: #fff;
+    }
+
+    b.is-visible{
+        font-size: 20px !important;
+        color: red !important;
+        text-align: center;
     }
 
     .fixed-top {
         position: none;
+    }
+
+    .fa-google-plus {
+        display: none;
     }
 
     #about {
@@ -1057,7 +1086,7 @@ footer ul li {
     }
 
     .masthead .intro-body .intro-text {
-        font-size: 40px !important;
+        font-size: 43px !important;
         text-shadow: 2px 2px rgba(35, 39, 43, 0.31);
     }
 
@@ -1073,8 +1102,8 @@ footer ul li {
 
     .masthead {
         background: url(../img/iphone-background.jpeg) no-repeat top center scroll;
-        background-size: 100%;
-        padding: 130px 0;
+        background-size: 107%;
+        padding-top: 105px;
     }
 
     .footer-icons {
@@ -1094,21 +1123,54 @@ footer ul li {
     .btn-intro {
         background: #df8090e3;
         border: 2px solid white;
-        width: 47%;
+        width: 57%;
         font-family: "Lato", sans-serif;
-        font-size: 12px;
+        font-size: 11px;
         color: white;
         margin: 0 auto;
-        height: 40px;
+        height: 43px;
         display: block;
         margin-bottom: 10px;
+        text-transform: uppercase;
     }
 
     .influencer-intro-txt {
         color: #000;
         padding: 0px 24px;
-        font-size: 14px;
+        font-size: 13px;
         text-align: justify;
+    }
+
+    .influencer-txt {
+        font-size: 17px;
+    }
+
+    .num-txt {
+        font-size: 71px !important;
+    }
+    
+    .gcmx-logo {
+        width: 53%;
+    }
+
+    .quote-txt {
+        font-size: 35px;
+    }
+
+    .talk-form-input {
+        width: 100%;
+    }
+
+    .skill-txt {
+        font-size: 12px;
+    }
+
+    .exp-subtitle {
+        font-size: 14px;
+    }
+
+    .who-am-i-txt {
+        font-size: 14px;
     }
 
     .cd-words-wrapper {
@@ -1138,6 +1200,16 @@ footer ul li {
     #contact {
         padding: 58px;
     }
+
+    .cd-words-wrapper {
+        margin-left: 100px;
+    }
+
+    .myself{
+        width: 55%;
+    }
+
+
 }
 
 
