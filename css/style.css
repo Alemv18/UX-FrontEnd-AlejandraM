@@ -16,7 +16,7 @@ input:focus{
 
 /* Intro section */
 .self {
-    width: 33% !important;
+	width: 33% !important;
 }
 
 .container-fluid {
@@ -61,17 +61,17 @@ input:focus{
 }
 
 .col-lg-10 {
-    margin-left: 40px;
-    margin-bottom: 40px;
+	margin-left: 40px;
+	margin-bottom: 40px;
 }
 
 .btn-intro:hover {
-    background: #df8090e3;
+	background: #df8090e3;
     border-radius: 100px;
 }
 
 #mainNav .nav-link.active {
-    background: none;
+	background: none;
     color: rgb(63, 22, 49);
 }
 
@@ -279,14 +279,14 @@ xclip
 }
 
 .skill-title {
-    font-weight: bolder;
+	font-weight: bolder;
     padding-top: 14px;
     margin-bottom: 5px;
 }
 
 .skill-txt {
     font-size: 14px;
-    text-align: center;
+	text-align: center;
 }
 
 .skill-icon {
@@ -296,16 +296,17 @@ xclip
 }
 
 #my-skills {
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .js-developer-txt {
-    font-size: 24px;
-    font-weight: bolder;
+    font-family: "Homemade Apple", sans-serif;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 35px;
     color: #f796a7;
     margin-bottom: 10px;
     background: black;
-    text-transform: uppercase;
     letter-spacing: 2px;
 }
 
@@ -397,13 +398,13 @@ xclip
 }
 /* My experience */
 #my-experience {
-    font-family: "Lato", sans-serif;
-    padding: 70px;
+	font-family: "Lato", sans-serif;
+	padding: 70px;
     background: #000;
 }
 
 .btn-experience {
-    background: none;
+	background: none;
     border: 1px solid white;
     padding: 10px 45px;
     font-family: "Lato", sans-serif;
@@ -412,7 +413,7 @@ xclip
 }
 
 .btn-experience:hover {
-    background: #df8090e3;
+	background: #df8090e3;
     border-radius: 100px;
 }
 
@@ -506,8 +507,8 @@ xclip
 }
 /* Quote section*/
 #quote {
-    background: white;
-    color: black;
+	background: white;
+	color: black;
 }
 
 .quote-day {
@@ -609,14 +610,14 @@ xclip
 /* Contact */
 
 #contact {
-    padding: 70px;
+	padding: 70px;
     background: #000;
 }
 
 a, 
 a:hover, 
 a:focus {
-    color:white;
+	color:white;
 }
 
 /* Footer section */
@@ -802,7 +803,7 @@ footer ul li {
 .professional-experience {
     padding-top: 100px;
     background: white;
-    height: 1500px;
+    /*height: 1500px;*/
     color: black;
     font-family: "Lato", sans-serif;
 }
@@ -1039,7 +1040,7 @@ footer ul li {
 
 /* Portrait and Landscape for Iphones */
 @media only screen 
-  and (min-device-width: 375px) 
+  and (min-device-width: 320px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
     .self {
@@ -1228,26 +1229,80 @@ footer ul li {
         height: 842px;
     }
 
-    .fa-diamond {
-        margin-top: 40px;
+    #about-experience {
+    padding: 38px;
     }
 
-    .js-developer-txt {
-        font-size: 18px !important;
-         font-weight: normal; 
-        color: #f796a7;
-        margin-bottom: 10px;
-        background: none;
-        text-transform: uppercase;
-         letter-spacing: 2px; 
+    .motivational-intro-quote {
+        padding: 0px 10px;
+        font-size: 21px;
+        opacity: 0.8;
+    }
+
+    #experience-masthead {
+        background: url(../img/budafest-background.jpg) no-repeat top center scroll !important;
+        background-size: 100% !important;
+        padding: 84px 0 !important;
+    }
+
+    .education-exp {
+        height: 590px;
+    }
+
+    .volunteer-exp {
+        height: 1040px;
+    }
+
+    .experience-logo{
+        width: 49%;
+    }
+
+    .about-cnt {
+        padding: 30px 43px;
     }
 
     .front-ux-txt {
-        font-size: 16px;
+        padding: 0 20px;
     }
 
-    .exp-subtitle {
-        font-size: 12px;
+    .phone-box {
+        margin-left: 30px;
+    }
+
+    .fp-txt-cont {
+        font-size: 13px;
+        padding: 0 32px;
+    }
+
+    .fp-txt-title {
+        font-size: 19px;
+    }
+
+    .fa-arrow-left {
+        font-size: 24px;
+        margin-top: 20px;
+        position: relative;
+        opacity: 0.4;
+    }
+
+    .experience-arrow {
+        color: #df8090;
+        margin-left: 10px;
+    }
+
+    .fp-logo-img {
+        width: 95%;
+    }
+
+    .js-developer-txt {
+        font-size: 34px !important;
+        font-weight: lighter;
+        color: #f796a7;
+        margin-bottom: 10px;
+        background: black;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        font-family: "Homemade Apple", sans-serif;
     }
 
 }
