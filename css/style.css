@@ -16,7 +16,7 @@ input:focus{
 
 /* Intro section */
 .self {
-	width: 33% !important;
+    width: 33% !important;
 }
 
 .container-fluid {
@@ -61,17 +61,17 @@ input:focus{
 }
 
 .col-lg-10 {
-	margin-left: 40px;
-	margin-bottom: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
 }
 
 .btn-intro:hover {
-	background: #df8090e3;
+    background: #df8090e3;
     border-radius: 100px;
 }
 
 #mainNav .nav-link.active {
-	background: none;
+    background: none;
     color: rgb(63, 22, 49);
 }
 
@@ -279,14 +279,14 @@ xclip
 }
 
 .skill-title {
-	font-weight: bolder;
+    font-weight: bolder;
     padding-top: 14px;
     margin-bottom: 5px;
 }
 
 .skill-txt {
     font-size: 14px;
-	text-align: center;
+    text-align: center;
 }
 
 .skill-icon {
@@ -296,7 +296,7 @@ xclip
 }
 
 #my-skills {
-	padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .js-developer-txt {
@@ -397,13 +397,13 @@ xclip
 }
 /* My experience */
 #my-experience {
-	font-family: "Lato", sans-serif;
-	padding: 70px;
+    font-family: "Lato", sans-serif;
+    padding: 70px;
     background: #000;
 }
 
 .btn-experience {
-	background: none;
+    background: none;
     border: 1px solid white;
     padding: 10px 45px;
     font-family: "Lato", sans-serif;
@@ -412,7 +412,7 @@ xclip
 }
 
 .btn-experience:hover {
-	background: #df8090e3;
+    background: #df8090e3;
     border-radius: 100px;
 }
 
@@ -506,8 +506,8 @@ xclip
 }
 /* Quote section*/
 #quote {
-	background: white;
-	color: black;
+    background: white;
+    color: black;
 }
 
 .quote-day {
@@ -596,7 +596,7 @@ xclip
 
 /* Blog Section */
 #blog {
-    height: 1400px;
+    height: 1360px;
     background: #fff;
     font-family: "Lato", sans-serif !important;
 }
@@ -609,14 +609,14 @@ xclip
 /* Contact */
 
 #contact {
-	padding: 70px;
+    padding: 70px;
     background: #000;
 }
 
 a, 
 a:hover, 
 a:focus {
-	color:white;
+    color:white;
 }
 
 /* Footer section */
@@ -1056,6 +1056,10 @@ footer ul li {
         color: #fff;
     }
 
+    #carouselExampleIndicators {
+        width: 90%;
+    }
+
     b.is-visible{
         font-size: 20px !important;
         color: red !important;
@@ -1102,8 +1106,13 @@ footer ul li {
 
     .masthead {
         background: url(../img/iphone-background.jpeg) no-repeat top center scroll;
-        background-size: 107%;
-        padding-top: 105px;
+        background-size: 112%;
+        padding: 84px 0 !important;
+    }
+
+    footer {
+        padding: 0;
+        height: 90px;
     }
 
     .footer-icons {
@@ -1129,6 +1138,7 @@ footer ul li {
         color: white;
         margin: 0 auto;
         height: 43px;
+        padding: 0; 
         display: block;
         margin-bottom: 10px;
         text-transform: uppercase;
@@ -1208,7 +1218,37 @@ footer ul li {
     .myself{
         width: 55%;
     }
+        
+    .gcmx-logo {
+        width: 86%;
+        margin-bottom: 20px;
+    }
 
+    #blog {
+        height: 842px;
+    }
+
+    .fa-diamond {
+        margin-top: 40px;
+    }
+
+    .js-developer-txt {
+        font-size: 18px !important;
+         font-weight: normal; 
+        color: #f796a7;
+        margin-bottom: 10px;
+        background: none;
+        text-transform: uppercase;
+         letter-spacing: 2px; 
+    }
+
+    .front-ux-txt {
+        font-size: 16px;
+    }
+
+    .exp-subtitle {
+        font-size: 12px;
+    }
 
 }
 
