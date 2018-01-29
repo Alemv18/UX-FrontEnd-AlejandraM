@@ -232,6 +232,12 @@ xclip
     opacity: 0.8;
 }
 
+.whoami {
+    font-size: 35px;
+    color: #d27c8b;
+    font-weight: bolder;
+}
+
 .fa-arrow-left {
     color: #fff;    
     font-size: 30px;
@@ -809,15 +815,18 @@ footer ul li {
 }
 
 #experience-masthead {
-    background: linear-gradient( rgba(5, 1, 1, 0.29), rgba(15, 1, 1, 0.41) ), url(../img/budapest-main-cover.jpg) no-repeat center right scroll !important;
+    background: linear-gradient( rgba(5, 1, 1, 0.29), rgba(15, 1, 1, 0.41) ), url(../img/experience-main-banner.jpg) no-repeat center right scroll !important;
     background-size: 100% !important;
     font-family: "Lato", sans-serif;
 }
 
 .motivational-intro-quote {
-    padding: 10px 140px;
-    font-size: 35px;
-    opacity: 0.8;
+    color: #000;
+    padding: 0;
+    color: #060505a8;
+    font-size: 37px;
+    opacity: 0.7;
+    font-family: "Homemade Apple", sans-serif;
 }
 
 .front-ux-txt {
@@ -843,6 +852,11 @@ footer ul li {
     font-size: 18px;
     font-weight: 800;
     color: #e34667;
+}
+
+.brand-img {
+    width: 49%;
+    opacity: 0.8;
 }
 
 .secret-logo, 
@@ -887,6 +901,10 @@ footer ul li {
     margin-top: 10px;
     padding: 0px 40px;
     text-align: justify;
+}
+
+.brand-img {
+    margin-top: -150px;
 }
 
 .tech-degree {
@@ -1041,7 +1059,7 @@ footer ul li {
 /* Portrait and Landscape for Iphones */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 736px) 
+  and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
     .self {
         width: 40% !important;
@@ -1234,15 +1252,16 @@ footer ul li {
     }
 
     .motivational-intro-quote {
-        padding: 0px 10px;
-        font-size: 21px;
-        opacity: 0.8;
+        padding: 0;
+        font-size: 37px;
+        text-shadow: 2px 1px 1px #7171717d;
+        opacity: 0.7;
+
     }
 
     #experience-masthead {
-        background: url(../img/budafest-background.jpg) no-repeat top center scroll !important;
-        background-size: 100% !important;
-        padding: 84px 0 !important;
+        background: url(../img/iphone-background.jpeg) no-repeat center right scroll !important;
+        background-size: 132% !important;
     }
 
     .education-exp {
@@ -1255,6 +1274,7 @@ footer ul li {
 
     .experience-logo{
         width: 49%;
+        margin-bottom: 40px;
     }
 
     .about-cnt {
@@ -1269,9 +1289,18 @@ footer ul li {
         margin-left: 30px;
     }
 
-    .fp-txt-cont {
+    .footer-cnt {
+        padding-left: 30px;
+    }
+
+    .fp-txt-cont, 
+    .fp-txt-place{
         font-size: 13px;
         padding: 0 32px;
+    }
+
+    .row-exp {
+        border-bottom: 0;
     }
 
     .fp-txt-title {
@@ -1307,8 +1336,31 @@ footer ul li {
 
     .mobile-mockup {
         max-width: 87% !important;
-        margin: 0 auto;
+        margin-left: 0px !important;
     }
+
+    .exp-date {
+        text-align: left !important;
+    }
+
+    .secret-logo, .silicio-logo {
+        width: 73% !important;
+    }
+
+    .tecmty {
+        margin-top: 34px;
+    }
+
+    .certificates {
+        margin-bottom: 60px;
+    }
+
+    .brand-img {
+        width: 49%;
+        opacity: 0.8;
+        visibility: hidden;
+    }
+
 
 }
 
