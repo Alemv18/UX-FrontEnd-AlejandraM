@@ -456,6 +456,11 @@ xclip
     background-color: rgb(248, 174, 170);
 }
 
+.desktop-intro {
+    color: #fff !important;
+    opacity: 0.8;
+}
+
 /* Unique page for my experience */
 #my-prof-experience {
     background-image: url("../img/beach.jpg");

@@ -9,8 +9,7 @@
     <!-- Add icon on browser's tab -->
     <link rel="icon" href="./img/blackdiamond.png">
     <!-- Bootstrap core CSS -->
-    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -350,12 +349,12 @@
           <div class="col-lg-8 col-md-8 col-sm-8">
             <h2><i class="fa fa-diamond" aria-hidden="true"></i></h2>
             <h2 class="contact">Let's talk! </h2>
-            <form action="#" method="get">
-              <input type="text" name="contact-name" class="contact-name talk-form-input" placeholder="Full Name"><br>
-              <input type="email" name="contact-email" class="contact-email talk-form-input" placeholder="Email"><br>
+            <form action="index.php" method="post">
+              <input type="text" name="contact-name" class="contact-name talk-form-input" placeholder="Full Name" required><br>
+              <input type="email" name="contact-email" class="contact-email talk-form-input" placeholder="Email" required><br>
               <textarea name="contact-message" id="contact-message" cols="30" rows="10"
-              placeholder="Message" class="talk-form-input"></textarea><br>
-              <button class="send-footer-btn btn-experience">Send</button>
+              placeholder="Message" class="talk-form-input" required></textarea><br>
+              <button type="submit" name="submit" class="send-footer-btn btn-experience">Send</button>
             </form>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
@@ -398,10 +397,9 @@
           </div>
         </footer>
         <!-- Bootstrap core JavaScript -->
-        <!-- <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/popper/popper.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
         <!-- Plugin JavaScript -->
         <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
         <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
