@@ -1,7 +1,4 @@
 <?
-
-require('vendor/autoload.php');
-
 php header( 'Location: /index.html' ) ;
 
 $name = test_input($_POST["contact-name"]);
