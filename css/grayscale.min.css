@@ -67,7 +67,8 @@ a:focus, a:hover {
 }
 
 #mainNav a {
-	color: #fff
+	color: #fff;
+	font-size: 10px;
 }
 
 #mainNav .navbar-nav .nav-item {
