@@ -252,6 +252,10 @@ xclip
 }
 
 
+.socialmedia-cont {
+    left: 60%;
+}
+
 /* About me section */
 #about {
     padding: 100px 390px;
@@ -1064,7 +1068,7 @@ footer ul li {
 /* Portrait and Landscape for Iphones */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 1024px) 
+  and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
     .self {
         width: 40% !important;
@@ -1109,7 +1113,7 @@ footer ul li {
     }
 
     #portfolio {
-        height: 277%;
+        height: 300%;
         width: 87%;
     }
 
@@ -1294,8 +1298,9 @@ footer ul li {
         margin-left: 30px;
     }
 
-    .footer-cnt {
-        padding-left: 30px;
+    .socialmedia-cont {
+        left: 5%;
+        margin-top: 30px;
     }
 
     .fp-txt-cont, 
@@ -1366,7 +1371,97 @@ footer ul li {
         visibility: hidden;
     }
 
-
 }
 
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+     #mainNav {
+        background-color: #ecd0cfd6;
+        border: 0;
+    }
+
+    .navbar-toggler {
+        margin-top: -37px;
+        left: 85%;
+        position: relative;
+    }
+
+    .intro-text {
+        font-size: 90px !important;
+    }
+
+    .cd-headline.clip span {
+        display: block;
+    }
+
+    .front-end-title {
+       margin-top: 50px;
+       color: #f796a7;
+       font-size: 28px;
+    }
+
+    .cd-words-wrapper {
+        margin-left: 20px;
+    }
+
+    #about {
+        padding: 0;
+    }
+
+    .about-cnt {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .mobile-mockup {
+        max-width: 61% !important;
+        margin-left: 50px !important;
+    }
+
+    .container-fluid {
+        padding: 0;
+      }
+
+      #portfolio {
+        height: 100%;
+      }
+
+      #download .container {
+        padding: 0 50px;
+      }
+
+      #blog {
+        height: 1210px;
+      }
+
+      .quote-txt {
+        font-size: 33px;
+      }
+
+      .socialmedia-icons {
+        padding-left: 30px;
+      }
+
+      .socialmedia-cont {
+        left: 39%;
+      }
+
+      .cd-words-wrapper {
+        margin-left: 200px !important;
+        margin-top: -30px;
+      }
+
+      .cd-intro {
+        font-size: 20px;
+      }
+
+      .talk-form-input {
+        width: 86%;
+      }
+
+}      
 
